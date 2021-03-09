@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Food Market</string>
+    <string name="foodmarket">FoodMarket</string>
+    <string name="logo">logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    Sign in / Sign Up-->
+    <string name="email_address">Email Address</string>
+    <string name="type_your_email_address">Type your email address</string>
+    <string name="password">Password</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="type_your_full_name">Type your full name</string>
+    <string name="continue_">Continue</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="select_your_city">Select your city</string>
+    <string name="city">City</string>
+    <string name="type_your_house_number">Type your house number</string>
+    <string name="house_no">House No.</string>
+    <string name="type_your_address">Type your address</string>
+    <string name="address">Address</string>
+    <string name="type_your_phone_number">Type your phone number</string>
+    <string name="phone_no">Phone No.</string>
+
+    <!--    Success Page -->
+    <string name="find_foods">Find Foods</string>
+    <string name="yeay_completed">Yeay! Completed</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="order">Order</string>
+    <string name="cherry_healthy">Cherry Healthy</string>
+    <string name="let_s_get_some_foods">Let’s get some foods</string>
+    <string name="poster">Poster</string>
+    <string name="price">Rp. 28.000</string>
+
+    <!--    Empty-->
+    <string name="ouch_hungry">Ouch! Hungry</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_mail_com">your@mail.com</string>
+    <string name="this_is_icon">This is Icon</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="seledri_telur_blueberry_madu">Seledri, telur, blueberry, madu.</string>
+    <string name="order_now">Order Now</string>
+    <string name="total_price">Total price :</string>
+    <string name="price_2">IDR 29.000.000</string>
+    <string name="you_ve_made_order">You\'ve Made Order</string>
+    <string name="order_other_food">Order other food</string>
+    <string name="view_my_order">View My Order</string>
+
+
+</resources>

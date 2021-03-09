@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="26dp"
+    android:layout_marginTop="24dp"
+    android:orientation="vertical"
+    tools:context=".ui.auth.signin.SigninFragment">
+
+    <TextView
+        style="@style/TextView.PoppinsNormal16spblack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_address" />
+    <EditText
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_email_address"
+        android:autofillHints=""
+        android:inputType="text" />
+    <TextView
+        style="@style/TextView.PoppinsNormal16spblack"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password" />
+    <EditText
+        android:inputType="textPassword"
+        android:background="@drawable/shape_rectangle_outline_8_020202"
+        android:padding="10dp"
+        android:layout_marginTop="6dp"
+        style="@style/EditText.PoppinsNormal14sp8D92A3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_your_password"
+        android:importantForAutofill="no" />
+    <Button
+        android:id="@+id/btnSignin"
+        style="@style/Button.PrimaryPoppinsNormal14sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"/>
+    <Button
+        android:id="@+id/btnSignup"
+        style="@style/Button.SecondaryPoppinsNormal14sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"/>
+</LinearLayout>
